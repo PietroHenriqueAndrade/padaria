@@ -10,4 +10,14 @@ class PrincipalController extends Controller
     {
         return view('bakery'); // nome da view
     }
+
+    public function sobre()
+    {
+        return view('sobre'); // nova view "sobre.blade.php"
+    }
+
+    public function contato()
+    {
+        return view('contato'); // nova view "contato.blade.php"
+    }
 }
